@@ -1,0 +1,74 @@
+/* html{
+    background-image: url('https://picsum.photos/200/300');
+} */
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.top-icon{
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    gap: 1em;
+    width: 100vw;
+    padding: 1rem;
+    font-size: 0.8em;
+}
+.wiew, .full-screen:hover{
+    cursor:grab;
+}
+/* main */
+.container{
+    width: 100vw;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.user{
+    width: 10rem;
+    height: 6.5rem;
+    background-image: url('https://picsum.photos/300/200');
+    border: 2px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.audio-set-name{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.2em;
+}
+.bottom-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: #222222;
+
+}
+.name-setting{
+    display: block;
+    font-size: 0.5em;
+}
+.nav-setting{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
